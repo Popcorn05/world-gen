@@ -8,10 +8,10 @@ namespace worldgen
         {
             // Create and configure FastNoise object
             FastNoiseLite noise = new FastNoiseLite();
-            noise.SetNoiseType(FastNoiseLite.NoiseType.OpenSimplex2);
+            noise.SetNoiseType(FastNoiseLite.NoiseType.Perlin);
 
             // Gather noise data
-            float[] noiseData = new float[128 * 128];
+            float[] noiseData = new float[1024 * 1024];
             int index = 0;
 
             for (int y = 0; y < 128; y++)
@@ -19,7 +19,6 @@ namespace worldgen
                 for (int x = 0; x < 128; x++)
                 {
                     noiseData[index] = noise.GetNoise(x, y);
-                    Console.WriteLine(noiseData[index++]);
                 }
             }
         }
