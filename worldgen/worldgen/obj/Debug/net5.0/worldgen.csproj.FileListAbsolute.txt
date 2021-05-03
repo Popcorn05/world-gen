@@ -1,0 +1,16 @@
+C:\dev\cs\world-gen\worldgen\worldgen\bin\Debug\net5.0\worldgen.exe
+C:\dev\cs\world-gen\worldgen\worldgen\bin\Debug\net5.0\worldgen.deps.json
+C:\dev\cs\world-gen\worldgen\worldgen\bin\Debug\net5.0\worldgen.runtimeconfig.json
+C:\dev\cs\world-gen\worldgen\worldgen\bin\Debug\net5.0\worldgen.runtimeconfig.dev.json
+C:\dev\cs\world-gen\worldgen\worldgen\bin\Debug\net5.0\worldgen.dll
+C:\dev\cs\world-gen\worldgen\worldgen\bin\Debug\net5.0\ref\worldgen.dll
+C:\dev\cs\world-gen\worldgen\worldgen\bin\Debug\net5.0\worldgen.pdb
+C:\dev\cs\world-gen\worldgen\worldgen\obj\Debug\net5.0\worldgen.csprojAssemblyReference.cache
+C:\dev\cs\world-gen\worldgen\worldgen\obj\Debug\net5.0\worldgen.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\cs\world-gen\worldgen\worldgen\obj\Debug\net5.0\worldgen.AssemblyInfoInputs.cache
+C:\dev\cs\world-gen\worldgen\worldgen\obj\Debug\net5.0\worldgen.AssemblyInfo.cs
+C:\dev\cs\world-gen\worldgen\worldgen\obj\Debug\net5.0\worldgen.csproj.CoreCompileInputs.cache
+C:\dev\cs\world-gen\worldgen\worldgen\obj\Debug\net5.0\worldgen.dll
+C:\dev\cs\world-gen\worldgen\worldgen\obj\Debug\net5.0\ref\worldgen.dll
+C:\dev\cs\world-gen\worldgen\worldgen\obj\Debug\net5.0\worldgen.pdb
+C:\dev\cs\world-gen\worldgen\worldgen\obj\Debug\net5.0\worldgen.genruntimeconfig.cache
