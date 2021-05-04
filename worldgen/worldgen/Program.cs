@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using Raylib_cs;
 using static Raylib_cs.Raylib;
 using static Raylib_cs.PixelFormat;
@@ -22,7 +23,7 @@ namespace worldgen
             InitWindow(GENWIDTH,GENHEIGHT,"Knallkorn's World Generator");
 
             // Create and configure FastNoise object
-            FastNoiseLite noise = new FastNoiseLite();
+            FastNoiseLite noise = new FastNoiseLite(RandomNumberGenerator.GetInt32(9999));
             noise.SetNoiseType(FastNoiseLite.NoiseType.Perlin);
 
             // Gather noise data
