@@ -17,6 +17,8 @@ namespace worldgen
 
             const int GENWIDTH = 1024;
             const int GENHEIGHT = 1024;
+
+            const int SCALE = 3;
             
             // Window setup
             
@@ -34,7 +36,7 @@ namespace worldgen
             {
                 for (int x = 0; x < GENWIDTH; x++)
                 {
-                    noiseData[index++] = Convert.ToInt32(map(noise.GetNoise(x, y),-1.0,1.0,0.0,255.0));
+                    noiseData[index++] = Convert.ToInt32(map(noise.GetNoise(x/SCALE, y/SCALE),-1.0,1.0,0.0,255.0));
                 }
             }
             
